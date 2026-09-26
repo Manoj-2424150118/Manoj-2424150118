@@ -1,3 +1,4 @@
+
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:7dd3fc&height=220&section=header&text=Manoj%20Kumar%20Sharma&fontSize=45&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=Cybersecurity%20Student&descAlignY=55&descSize=20" width="100%"/>
@@ -48,7 +49,7 @@ const manoj = {
 
 A modern, customizable password generator with a beautiful GUI built using Java Swing. It allows you to choose character sets, adjust password length, copy to clipboard, and view password strength estimation along with password generation history.
 
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Manoj-2424150118&repo=SecurePasswordGenerator&theme=nord&border_color=7dd3fc&title_color=7dd3fc&text_color=c9d1d9&icon_color=7dd3fc&bg_color=0d1117" alt="SecurePasswordGenerator Repo Card"/>
+<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Manoj-2424150118&repo=SecurePasswordGenerator&theme=nord&border_color=7dd3fc&title_color=7dd3fc&text_color=c9d1d9&icon_color=7dd3fc&bg_color=0d1117" alt="SecurePasswordGenerator Repo Card"/>
 
 | Layer | Technology |
 |---|---|
@@ -65,7 +66,7 @@ A modern, customizable password generator with a beautiful GUI built using Java 
 
 Deceptive-Net is an advanced, academic-tier cybersecurity platform built to simultaneously detect anomalous financial transactions in real-time and actively deceive potential insider threats or attackers through data watermarking and simulated network topologies.
 
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Manoj-2424150118&repo=Deceptive-Net-A-Honey-Token-Generative-Framework&theme=nord&border_color=7dd3fc&title_color=7dd3fc&text_color=c9d1d9&icon_color=7dd3fc&bg_color=0d1117" alt="Deceptive-Net Repo Card"/>
+<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Manoj-2424150118&repo=Deceptive-Net-A-Honey-Token-Generative-Framework&theme=nord&border_color=7dd3fc&title_color=7dd3fc&text_color=c9d1d9&icon_color=7dd3fc&bg_color=0d1117" alt="Deceptive-Net Repo Card"/>
 
 | Layer | Technology |
 |---|---|
@@ -108,13 +109,16 @@ Deceptive-Net is an advanced, academic-tier cybersecurity platform built to simu
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Manoj-2424150118&show_icons=true&theme=nord&border_color=7dd3fc&title_color=7dd3fc&text_color=c9d1d9&icon_color=7dd3fc&bg_color=0d1117" alt="GitHub Stats" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Manoj-2424150118&layout=compact&theme=nord&border_color=7dd3fc&title_color=7dd3fc&text_color=c9d1d9&bg_color=0d1117" alt="Top Languages" height="165"/>
+<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Manoj-2424150118&show_icons=true&theme=nord&border_color=7dd3fc&title_color=7dd3fc&text_color=c9d1d9&icon_color=7dd3fc&bg_color=0d1117" alt="GitHub Stats" height="165"/>
+<img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Manoj-2424150118&layout=compact&theme=nord&border_color=7dd3fc&title_color=7dd3fc&text_color=c9d1d9&bg_color=0d1117" alt="Top Languages" height="165"/>
 
 <img src="https://streak-stats.demolab.com?user=Manoj-2424150118&theme=nord&border=7dd3fc&background=0d1117&ring=7dd3fc&fire=7dd3fc&currStreakLabel=7dd3fc" alt="GitHub Streak"/>
 
 </div>
 
+<!-- The endpoints for Trophies and Activity Graph are currently down globally due to Vercel free tier limitations limit on the author's account (402 Payment Required). They have been temporarily commented out. -->
+
+<!--
 ### 🏆 Trophies
 
 <div align="center">
@@ -126,6 +130,7 @@ Deceptive-Net is an advanced, academic-tier cybersecurity platform built to simu
 <div align="center">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Manoj-2424150118&theme=react-dark&hide_border=true&bg_color=0d1117&color=7dd3fc&line=7dd3fc&point=ffffff" alt="Contribution Activity Graph"/>
 </div>
+-->
 
 <br/>
 
