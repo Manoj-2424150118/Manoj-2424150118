@@ -1,10 +1,10 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:7dd3fc&height=220&section=header&text=Manoj%20Kumar%20Sharma&fontSize=45&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=Cybersecurity%20Student&descAlignY=55&descSize=20" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:7dd3fc&height=220&section=header&text=Manoj%20Kumar%20Sharma&fontSize=45&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=Cybersecurity%20%26%20Software%20Professional&descAlignY=55&descSize=20" width="100%"/>
 
 <a href="https://github.com/Manoj-2424150118">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=7DD3FC&center=true&vCenter=true&width=650&lines=Cybersecurity+Student;SOC+%2F+Blue+Team+Enthusiast;Building+Deceptive-Net%2B%2B+(GAN+Honey-Tokens);Java+%7C+Python+%7C+Kotlin+%7C+TypeScript;Burp+Suite+%7C+Metasploit+%7C+Nmap+%7C+Shodan" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=7DD3FC&center=true&vCenter=true&width=650&lines=Cybersecurity+%26+Software+Professional;SOC+%2F+Blue+Team+Enthusiast;Building+Deceptive-Net%2B%2B+(GAN+Honey-Tokens);Java+%7C+Python+%7C+Kotlin+%7C+TypeScript;Burp+Suite+%7C+Metasploit+%7C+Nmap+%7C+Shodan" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -20,7 +20,9 @@
 
 ```typescript
 const manoj = {
-  title: "Cybersecurity Student",
+  title: "Cybersecurity & Software Professional",
+  education: "MCA, Manipal University Jaipur (2026)",
+  currentRole: "AI Fellow at Handshake AI",
   stack: [
     "Python", "Java", "Kotlin", "TypeScript", "HTML", "CSS",
     "JavaScript", "SQL", "PHP", "AWS Cloud",
@@ -36,8 +38,8 @@ const manoj = {
     "EC-Council Digital Forensics Essentials",
     "EC-Council Ethical Hacking Essentials"
   ],
-  status: "learning offensive & defensive security, one recon scan at a time",
-  openTo: ["SOC Analyst (L1/L2)", "Security Analyst", "Cloud Security Associate", "Junior Penetration Tester"]
+  status: "MCA graduate — building deception & detection tooling, one recon scan at a time",
+  openTo: ["SOC Analyst", "Security Analyst", "Software Developer"]
 };
 ```
 
