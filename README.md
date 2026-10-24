@@ -129,9 +129,9 @@ A modern, customizable password generator with a beautiful GUI built using Java 
 
 **Security Tools**
 
-<img src="https://img.shields.io/badge/Burp%20Suite-0d1117?style=flat-square&labelColor=0d1117" alt="Burp Suite"/>
-<img src="https://img.shields.io/badge/Nmap-0d1117?style=flat-square&logo=nmap&logoColor=7dd3fc&labelColor=0d1117" alt="Nmap"/>
-<img src="https://img.shields.io/badge/Metasploit-0d1117?style=flat-square&labelColor=0d1117" alt="Metasploit"/>
+<img src="https://img.shields.io/badge/Burp%20Suite-0d1117?style=flat-square&logo=burpsuite&logoColor=7dd3fc&labelColor=0d1117" alt="Burp Suite"/>
+<img src="https://img.shields.io/badge/Nmap-0d1117?style=flat-square&labelColor=0d1117" alt="Nmap"/>
+<img src="https://img.shields.io/badge/Metasploit-0d1117?style=flat-square&logo=metasploit&logoColor=7dd3fc&labelColor=0d1117" alt="Metasploit"/>
 <img src="https://img.shields.io/badge/Shodan-0d1117?style=flat-square&labelColor=0d1117" alt="Shodan"/>
 
 **Cloud & DevOps**
