@@ -52,7 +52,7 @@ const manoj = {
 
 ### 🛡️ Aegis — Personal Cyber Defense Platform
 
-A production-grade FastAPI + React application that protects an individual user against today's most common cyber threats — phishing links, phishing/BEC email, malware attachments, weak and breached passwords, stolen secrets, and unsafe websites — across six modules: a phishing URL analyser, a phishing/BEC email analyser, an in-memory malware file scanner, a Password Lab with Have-I-Been-Pwned k-anonymity breach checks, an AES-256-GCM encrypted vault (Argon2id key derivation), and a website security audit. Every finding ships with a concrete suggested fix, and every analysis streams live to the browser stage-by-stage.
+A production-grade FastAPI + React application that protects an individual user against today's most common cyber threats — phishing links, phishing/BEC email, malware attachments, weak and breached passwords, stolen secrets, and unsafe websites — across nine tools: a phishing URL analyser, a phishing/BEC email analyser, an in-memory malware file scanner, a Password Lab with Have-I-Been-Pwned k-anonymity breach checks, an AES-256-GCM encrypted vault (Argon2id key derivation), a website security audit, plus a scam-message checker, a domain-security checker, and a TLS-certificate inspector. Every finding ships with a concrete suggested fix, and every analysis streams live to the browser stage-by-stage.
 
 <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Manoj-2424150118&repo=aegis-cyber-defense-platform&theme=nord&border_color=7dd3fc&title_color=7dd3fc&text_color=c9d1d9&icon_color=7dd3fc&bg_color=0d1117" alt="Aegis Repo Card"/>
 
