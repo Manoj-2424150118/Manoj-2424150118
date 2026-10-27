@@ -1,18 +1,10 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:7dd3fc&height=240&section=header&text=Manoj%20Kumar%20Sharma&fontSize=58&fontColor=ffffff&animation=twinkling&fontAlignY=32&desc=BUILD.%20BREAK.%20SECURE.&descAlignY=56&descSize=26" width="100%"/>
+<img src="assets/profile-hero.svg" width="100%" alt="Manoj Kumar Sharma — Cybersecurity & Software Professional. Build. Break. Secure."/>
 
-### Cybersecurity & Software Professional · AI Fellow @ Handshake AI
-
-<img src="https://img.shields.io/badge/📍_Jaipur,_India-0d1117?style=flat-square&labelColor=0d1117&color=7dd3fc" alt="Jaipur, India"/>
-<img src="https://img.shields.io/badge/Open_to_Work-SOC_Analyst_·_Security_Analyst_·_Software_Developer-0d1117?style=flat-square&labelColor=0d1117&color=7dd3fc" alt="Open to Work"/>
 <img src="https://komarev.com/ghpvc/?username=Manoj-2424150118&label=Profile%20Views&color=7dd3fc&style=flat-square" alt="Profile Views"/>
 <img src="https://img.shields.io/github/followers/Manoj-2424150118?label=Followers&style=flat-square&color=7dd3fc" alt="Followers"/>
-
-<a href="https://github.com/Manoj-2424150118">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=7DD3FC&center=true&vCenter=true&width=650&lines=Cybersecurity+%26+Software+Professional;SOC+%2F+Blue+Team+Enthusiast;Building+Aegis+%E2%80%94+Personal+Cyber+Defense+Platform;Java+%7C+Python+%7C+Kotlin+%7C+TypeScript;Burp+Suite+%7C+Metasploit+%7C+Nmap+%7C+Shodan" alt="Typing SVG" />
-</a>
 
 </div>
 
@@ -49,24 +41,6 @@ const manoj = {
   openTo: ["SOC Analyst", "Security Analyst", "Software Developer"]
 };
 ```
-
-<br/>
-
-## 🧠 Security. Built Different.
-
-<table>
-<tr>
-<td align="center" width="33%"><h3>01 · THINK</h3>Threat-model first — understand the attacker before writing a line of code.</td>
-<td align="center" width="33%"><h3>02 · BUILD</h3>Ship real, tested software — CI green, or it doesn't count.</td>
-<td align="center" width="33%"><h3>03 · SECURE</h3>Harden, verify, and re-verify — every release audited before it ships.</td>
-</tr>
-</table>
-
-| | What I do | |
-|---|---|---|
-| 🛡️ | **Cyber Defense Tooling** | Aegis — nine tools that protect real users against phishing, BEC, malware, breached passwords and unsafe websites. |
-| 💻 | **Secure Software Development** | FastAPI/React platforms and Kotlin Android apps, built secure-by-default with end-to-end encryption where it matters. |
-| 🎬 | **Scam Awareness, Decoded** | Creator of **Scam Decoded** on YouTube — breaking down AI voice-clone and digital-arrest scams in Hinglish so families can spot them. |
 
 <br/>
 
@@ -114,16 +88,7 @@ More shipped work: **Deceptive-Net** — GAN-generated honey-tokens deployed int
 
 <br/>
 
-## 📊 Real Work. Real Impact.
-
-<table align="center">
-<tr>
-<td align="center" width="25%"><h1>17</h1><b>Public Repos</b></td>
-<td align="center" width="25%"><h1>2</h1><b>Android Apps Shipped</b><br/>signed v1.1.0 releases</td>
-<td align="center" width="25%"><h1>3</h1><b>Live Demos Online</b><br/>Aegis · Phish Frenzy · Portfolio</td>
-<td align="center" width="25%"><h1>9</h1><b>Security Tools</b><br/>inside Aegis</td>
-</tr>
-</table>
+## 📊 GitHub Stats
 
 <div align="center">
 
