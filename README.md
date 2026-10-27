@@ -1,16 +1,18 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:7dd3fc&height=220&section=header&text=Manoj%20Kumar%20Sharma&fontSize=45&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=Cybersecurity%20%26%20Software%20Professional&descAlignY=55&descSize=20" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:7dd3fc&height=240&section=header&text=Manoj%20Kumar%20Sharma&fontSize=58&fontColor=ffffff&animation=twinkling&fontAlignY=32&desc=BUILD.%20BREAK.%20SECURE.&descAlignY=56&descSize=26" width="100%"/>
+
+### Cybersecurity & Software Professional · AI Fellow @ Handshake AI
+
+<img src="https://img.shields.io/badge/📍_Jaipur,_India-0d1117?style=flat-square&labelColor=0d1117&color=7dd3fc" alt="Jaipur, India"/>
+<img src="https://img.shields.io/badge/Open_to_Work-SOC_Analyst_·_Security_Analyst_·_Software_Developer-0d1117?style=flat-square&labelColor=0d1117&color=7dd3fc" alt="Open to Work"/>
+<img src="https://komarev.com/ghpvc/?username=Manoj-2424150118&label=Profile%20Views&color=7dd3fc&style=flat-square" alt="Profile Views"/>
+<img src="https://img.shields.io/github/followers/Manoj-2424150118?label=Followers&style=flat-square&color=7dd3fc" alt="Followers"/>
 
 <a href="https://github.com/Manoj-2424150118">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=7DD3FC&center=true&vCenter=true&width=650&lines=Cybersecurity+%26+Software+Professional;SOC+%2F+Blue+Team+Enthusiast;Building+Aegis+%E2%80%94+Personal+Cyber+Defense+Platform;Java+%7C+Python+%7C+Kotlin+%7C+TypeScript;Burp+Suite+%7C+Metasploit+%7C+Nmap+%7C+Shodan" alt="Typing SVG" />
 </a>
-
-<br/>
-
-<img src="https://komarev.com/ghpvc/?username=Manoj-2424150118&label=Profile%20Views&color=7dd3fc&style=flat-square" alt="Profile Views"/>
-<img src="https://img.shields.io/github/followers/Manoj-2424150118?label=Followers&style=flat-square&color=7dd3fc" alt="Followers"/>
 
 </div>
 
@@ -33,6 +35,8 @@ const manoj = {
     "Aegis — Personal Cyber Defense Platform",
     "Deceptive-Net: A Honey-Token Generative Framework",
     "SIEM: Automated Threat Hunting & Incident Response Pipeline",
+    "Z+ Secure — Encrypted Vault & Authenticator (Android)",
+    "Wokie — Offline Encrypted Mesh Messaging (Android)",
     "SecurePasswordGenerator"
   ],
   certifications: [
@@ -48,72 +52,87 @@ const manoj = {
 
 <br/>
 
-## Featured Projects
+## 🧠 Security. Built Different.
 
-### 🛡️ Aegis — Personal Cyber Defense Platform
+<table>
+<tr>
+<td align="center" width="33%"><h3>01 · THINK</h3>Threat-model first — understand the attacker before writing a line of code.</td>
+<td align="center" width="33%"><h3>02 · BUILD</h3>Ship real, tested software — CI green, or it doesn't count.</td>
+<td align="center" width="33%"><h3>03 · SECURE</h3>Harden, verify, and re-verify — every release audited before it ships.</td>
+</tr>
+</table>
+
+| | What I do | |
+|---|---|---|
+| 🛡️ | **Cyber Defense Tooling** | Aegis — nine tools that protect real users against phishing, BEC, malware, breached passwords and unsafe websites. |
+| 💻 | **Secure Software Development** | FastAPI/React platforms and Kotlin Android apps, built secure-by-default with end-to-end encryption where it matters. |
+| 🎬 | **Scam Awareness, Decoded** | Creator of **Scam Decoded** on YouTube — breaking down AI voice-clone and digital-arrest scams in Hinglish so families can spot them. |
+
+<br/>
+
+## 📌 Featured Projects
+
+<div align="center">
+
+<a href="https://github.com/Manoj-2424150118/aegis-cyber-defense-platform">
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Manoj-2424150118&repo=aegis-cyber-defense-platform&theme=nord&border_color=7dd3fc&title_color=7dd3fc&text_color=c9d1d9&icon_color=7dd3fc&bg_color=0d1117" alt="Aegis Repo Card"/>
+</a>
+<a href="https://github.com/Manoj-2424150118/Deceptive-Net-A-Honey-Token-Generative-Framework">
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Manoj-2424150118&repo=Deceptive-Net-A-Honey-Token-Generative-Framework&theme=nord&border_color=7dd3fc&title_color=7dd3fc&text_color=c9d1d9&icon_color=7dd3fc&bg_color=0d1117" alt="Deceptive-Net Repo Card"/>
+</a>
+
+<a href="https://github.com/Manoj-2424150118/SIEM">
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Manoj-2424150118&repo=SIEM&theme=nord&border_color=7dd3fc&title_color=7dd3fc&text_color=c9d1d9&icon_color=7dd3fc&bg_color=0d1117" alt="SIEM Repo Card"/>
+</a>
+<a href="https://github.com/Manoj-2424150118/Z-Security">
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Manoj-2424150118&repo=Z-Security&theme=nord&border_color=7dd3fc&title_color=7dd3fc&text_color=c9d1d9&icon_color=7dd3fc&bg_color=0d1117" alt="Z+ Secure Repo Card"/>
+</a>
+
+<a href="https://github.com/Manoj-2424150118/Wokie">
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Manoj-2424150118&repo=Wokie&theme=nord&border_color=7dd3fc&title_color=7dd3fc&text_color=c9d1d9&icon_color=7dd3fc&bg_color=0d1117" alt="Wokie Repo Card"/>
+</a>
+<a href="https://github.com/Manoj-2424150118/SecurePasswordGenerator">
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Manoj-2424150118&repo=SecurePasswordGenerator&theme=nord&border_color=7dd3fc&title_color=7dd3fc&text_color=c9d1d9&icon_color=7dd3fc&bg_color=0d1117" alt="SecurePasswordGenerator Repo Card"/>
+</a>
+
+</div>
+
+### 🛡️ Flagship — Aegis: Personal Cyber Defense Platform
 
 A production-grade FastAPI + React application that protects an individual user against today's most common cyber threats — phishing links, phishing/BEC email, malware attachments, weak and breached passwords, stolen secrets, and unsafe websites — across nine tools: a phishing URL analyser, a phishing/BEC email analyser, an in-memory malware file scanner, a Password Lab with Have-I-Been-Pwned k-anonymity breach checks, an AES-256-GCM encrypted vault (Argon2id key derivation), a website security audit, plus a scam-message checker, a domain-security checker, and a TLS-certificate inspector. Every finding ships with a concrete suggested fix, and every analysis streams live to the browser stage-by-stage.
-
-<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Manoj-2424150118&repo=aegis-cyber-defense-platform&theme=nord&border_color=7dd3fc&title_color=7dd3fc&text_color=c9d1d9&icon_color=7dd3fc&bg_color=0d1117" alt="Aegis Repo Card"/>
 
 | Layer | Technology |
 |---|---|
 | Backend | FastAPI (Python) · Argon2id · JWT |
 | Frontend | React · TypeScript |
 | Security | AES-256-GCM vault · k-anonymity breach checks · OWASP hardening |
-| Quality | 32 pytest tests · CI · CodeQL · Docker |
+| Quality | 123 pytest tests · CI · CodeQL · Docker |
 
 🔗 Code: [github.com/Manoj-2424150118/aegis-cyber-defense-platform](https://github.com/Manoj-2424150118/aegis-cyber-defense-platform) · 🚀 **Live demo: [aegis-cyber-defense-platform.onrender.com](https://aegis-cyber-defense-platform.onrender.com)** *(free-tier hosting — the first load after idle can take ~1 minute while the service wakes up)*
 
-<br/>
-
-### 🕵️ Deceptive-Net: A Honey-Token Generative Framework
-
-An advanced defensive framework that utilises GANs (CTGAN) to autonomously generate and deploy realistic honey-tokens into Cowrie honeypots. Using complex PII datasets, it helps SOC analysts proactively detect unauthorised access and track lateral movement before critical assets are compromised.
-
-<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Manoj-2424150118&repo=Deceptive-Net-A-Honey-Token-Generative-Framework&theme=nord&border_color=7dd3fc&title_color=7dd3fc&text_color=c9d1d9&icon_color=7dd3fc&bg_color=0d1117" alt="Deceptive-Net Repo Card"/>
-
-| Layer | Technology |
-|---|---|
-| Core | CTGAN (Generative Adversarial Networks) |
-| Deception | Synthetic honey-tokens · Cowrie honeypots |
-| Domain | SOC · Threat Detection · Blue Team |
-
-🔗 Code: [github.com/Manoj-2424150118/Deceptive-Net-A-Honey-Token-Generative-Framework](https://github.com/Manoj-2424150118/Deceptive-Net-A-Honey-Token-Generative-Framework)
+More shipped work: **Deceptive-Net** — GAN-generated honey-tokens deployed into Cowrie honeypots for early intrusion detection · **SIEM** — Elastic-based detection pipeline that verifies attacker IPs against VirusTotal, blocks them at the firewall, and alerts on Telegram/Slack/Discord · **Z+ Secure** (Android, v1.1.0) — fully offline encrypted password vault + 2FA authenticator, SQLCipher + PBKDF2, no Internet permission · **Wokie** (Android, v1.1.0) — offline end-to-end-encrypted mesh messaging over nearby radios, no server, no account.
 
 <br/>
 
-### 📡 SIEM — Automated Threat Hunting & Incident Response Pipeline
+## 📊 Real Work. Real Impact.
 
-A lightweight SIEM in Python that closes the loop from detection to response: an Elastic Stack pipeline detects brute-force and malicious activity, verifies the source IP against VirusTotal threat intelligence to prevent false positives, blocks the attacker in the Windows Firewall, and alerts the team via Telegram, Slack, or Discord. Dockerised, with an attack simulator, webhook alerting, stress tests, and a pytest suite.
+<table align="center">
+<tr>
+<td align="center" width="25%"><h1>17</h1><b>Public Repos</b></td>
+<td align="center" width="25%"><h1>2</h1><b>Android Apps Shipped</b><br/>signed v1.1.0 releases</td>
+<td align="center" width="25%"><h1>3</h1><b>Live Demos Online</b><br/>Aegis · Phish Frenzy · Portfolio</td>
+<td align="center" width="25%"><h1>9</h1><b>Security Tools</b><br/>inside Aegis</td>
+</tr>
+</table>
 
-<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Manoj-2424150118&repo=SIEM&theme=nord&border_color=7dd3fc&title_color=7dd3fc&text_color=c9d1d9&icon_color=7dd3fc&bg_color=0d1117" alt="SIEM Repo Card"/>
+<div align="center">
 
-| Layer | Technology |
-|---|---|
-| Stack | Python · Elastic Stack (Elasticsearch & Kibana) |
-| Response | VirusTotal threat-intel check · automatic firewall block |
-| Alerts | Telegram · Slack · Discord |
-| Deployment | Docker Compose · pytest suite |
+<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Manoj-2424150118&show_icons=true&theme=nord&border_color=7dd3fc&title_color=7dd3fc&text_color=c9d1d9&icon_color=7dd3fc&bg_color=0d1117" alt="GitHub Stats" height="165"/>
+<img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Manoj-2424150118&layout=compact&theme=nord&border_color=7dd3fc&title_color=7dd3fc&text_color=c9d1d9&bg_color=0d1117" alt="Top Languages" height="165"/>
 
-🔗 Code: [github.com/Manoj-2424150118/SIEM](https://github.com/Manoj-2424150118/SIEM)
+<img src="https://streak-stats.demolab.com?user=Manoj-2424150118&theme=nord&border=7dd3fc&background=0d1117&ring=7dd3fc&fire=7dd3fc&currStreakLabel=7dd3fc" alt="GitHub Streak"/>
 
-<br/>
-
-### 🔐 SecurePasswordGenerator
-
-A modern, customizable password generator with a beautiful GUI built using Java Swing. It allows you to choose character sets, adjust password length, copy to clipboard, and view password strength estimation along with password generation history.
-
-<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Manoj-2424150118&repo=SecurePasswordGenerator&theme=nord&border_color=7dd3fc&title_color=7dd3fc&text_color=c9d1d9&icon_color=7dd3fc&bg_color=0d1117" alt="SecurePasswordGenerator Repo Card"/>
-
-| Layer | Technology |
-|---|---|
-| Language | Java |
-| UI | Java Swing |
-| Feature | Password Strength Estimation |
-| Feature | Clipboard Copy + Generation History |
-
-🔗 Code: [github.com/Manoj-2424150118/SecurePasswordGenerator](https://github.com/Manoj-2424150118/SecurePasswordGenerator)
+</div>
 
 <br/>
 
@@ -161,32 +180,17 @@ A modern, customizable password generator with a beautiful GUI built using Java 
 
 <br/>
 
-## GitHub Stats
+## 🎬 Scam Decoded — My YouTube Channel
+
+I run **Scam Decoded**, a faceless Hinglish channel exposing AI voice-clone family scams, digital-arrest fraud and the tricks scammers use on Indian families — so viewers can recognise them before money moves.
 
 <div align="center">
 
-<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Manoj-2424150118&show_icons=true&theme=nord&border_color=7dd3fc&title_color=7dd3fc&text_color=c9d1d9&icon_color=7dd3fc&bg_color=0d1117" alt="GitHub Stats" height="165"/>
-<img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Manoj-2424150118&layout=compact&theme=nord&border_color=7dd3fc&title_color=7dd3fc&text_color=c9d1d9&bg_color=0d1117" alt="Top Languages" height="165"/>
-
-<img src="https://streak-stats.demolab.com?user=Manoj-2424150118&theme=nord&border=7dd3fc&background=0d1117&ring=7dd3fc&fire=7dd3fc&currStreakLabel=7dd3fc" alt="GitHub Streak"/>
+<a href="https://www.youtube.com/@ScamDecodedIndia">
+  <img src="https://img.shields.io/badge/YouTube-Scam_Decoded-7dd3fc?style=for-the-badge&logo=youtube&logoColor=white&labelColor=0d1117" alt="Scam Decoded on YouTube"/>
+</a>
 
 </div>
-
-<!-- The endpoints for Trophies and Activity Graph are currently down globally due to Vercel free tier limitations limit on the author's account (402 Payment Required). They have been temporarily commented out. -->
-
-<!--
-### 🏆 Trophies
-
-<div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=Manoj-2424150118&theme=nord&no-frame=true&no-bg=true&margin-w=8&margin-h=8" alt="GitHub Trophies"/>
-</div>
-
-### 📊 Contribution Activity
-
-<div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Manoj-2424150118&theme=react-dark&hide_border=true&bg_color=0d1117&color=7dd3fc&line=7dd3fc&point=ffffff" alt="Contribution Activity Graph"/>
-</div>
--->
 
 <br/>
 
@@ -196,6 +200,9 @@ A modern, customizable password generator with a beautiful GUI built using Java 
 
 <a href="https://www.linkedin.com/in/manojthegeek">
   <img src="https://img.shields.io/badge/LinkedIn-manojthegeek-7dd3fc?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117" alt="LinkedIn"/>
+</a>
+<a href="https://www.youtube.com/@ScamDecodedIndia">
+  <img src="https://img.shields.io/badge/YouTube-@ScamDecodedIndia-7dd3fc?style=for-the-badge&logo=youtube&logoColor=white&labelColor=0d1117" alt="YouTube"/>
 </a>
 <a href="mailto:sharmamanojkumar697@gmail.com">
   <img src="https://img.shields.io/badge/Email-sharmamanojkumar697%40gmail.com-7dd3fc?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117" alt="Email"/>
