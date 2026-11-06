@@ -6,6 +6,10 @@
 <img src="https://komarev.com/ghpvc/?username=Manoj-2424150118&label=Profile%20Views&color=7dd3fc&style=flat-square" alt="Profile Views"/>
 <img src="https://img.shields.io/github/followers/Manoj-2424150118?label=Followers&style=flat-square&color=7dd3fc" alt="Followers"/>
 
+<br/>
+
+<img src="https://streak-stats.demolab.com?user=Manoj-2424150118&theme=nord&border=7dd3fc&background=0d1117&ring=7dd3fc&fire=7dd3fc&currStreakLabel=7dd3fc" alt="GitHub Streak"/>
+
 </div>
 
 <br/>
@@ -95,7 +99,6 @@ More shipped work: **Deceptive-Net** — GAN-generated honey-tokens deployed int
 <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Manoj-2424150118&show_icons=true&theme=nord&border_color=7dd3fc&title_color=7dd3fc&text_color=c9d1d9&icon_color=7dd3fc&bg_color=0d1117" alt="GitHub Stats" height="165"/>
 <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Manoj-2424150118&layout=compact&theme=nord&border_color=7dd3fc&title_color=7dd3fc&text_color=c9d1d9&bg_color=0d1117" alt="Top Languages" height="165"/>
 
-<img src="https://streak-stats.demolab.com?user=Manoj-2424150118&theme=nord&border=7dd3fc&background=0d1117&ring=7dd3fc&fire=7dd3fc&currStreakLabel=7dd3fc" alt="GitHub Streak"/>
 
 </div>
 
