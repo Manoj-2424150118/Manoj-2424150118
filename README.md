@@ -16,6 +16,8 @@
   <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/Manoj-2424150118/Manoj-2424150118/output/github-contribution-grid-snake.svg">
 </picture>
 
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1100&color=7DD3FC&center=true&vCenter=true&width=700&lines=Cybersecurity+%26+Software+Professional;SOC+Analyst+%7C+Security+Analyst+%7C+Software+Developer;AI+Fellow+at+Handshake+AI;Building+Aegis+-+Personal+Cyber+Defense+Platform" alt="Typing SVG"/>
+
 </div>
 
 <br/>
@@ -105,12 +107,19 @@ More shipped work: **Deceptive-Net** — GAN-generated honey-tokens deployed int
 <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Manoj-2424150118&show_icons=true&theme=nord&border_color=7dd3fc&title_color=7dd3fc&text_color=c9d1d9&icon_color=7dd3fc&bg_color=0d1117" alt="GitHub Stats" height="165"/>
 <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Manoj-2424150118&layout=compact&theme=nord&border_color=7dd3fc&title_color=7dd3fc&text_color=c9d1d9&bg_color=0d1117" alt="Top Languages" height="165"/>
 
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Manoj-2424150118&theme=nord_dark" alt="Profile Details"/>
 
 </div>
 
 <br/>
 
 ## Tech Stack
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,java,kotlin,ts,js,html,css,php,mysql,aws,docker,git,githubactions,linux,react,nextjs,flask,fastapi" alt="Tech stack icons"/>
+
+</div>
 
 **Languages**
 
