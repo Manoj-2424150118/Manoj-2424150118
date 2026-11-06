@@ -10,6 +10,12 @@
 
 <img src="https://streak-stats.demolab.com?user=Manoj-2424150118&theme=nord&border=7dd3fc&background=0d1117&ring=7dd3fc&fire=7dd3fc&currStreakLabel=7dd3fc" alt="GitHub Streak"/>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Manoj-2424150118/Manoj-2424150118/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Manoj-2424150118/Manoj-2424150118/output/github-contribution-grid-snake.svg">
+  <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/Manoj-2424150118/Manoj-2424150118/output/github-contribution-grid-snake.svg">
+</picture>
+
 </div>
 
 <br/>
