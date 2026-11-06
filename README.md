@@ -16,6 +16,12 @@
   <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/Manoj-2424150118/Manoj-2424150118/output/github-contribution-grid-snake.svg">
 </picture>
 
+<br/>
+
+<img src="koi/koi.gif" width="256" alt="My contribution koi — it grows with my contributions, takes its colours from my languages, and fills its fins the longer my streak runs"/>
+
+<br/>
+
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1100&color=7DD3FC&center=true&vCenter=true&width=700&lines=Cybersecurity+%26+Software+Professional;SOC+Analyst+%7C+Security+Analyst+%7C+Software+Developer;AI+Fellow+at+Handshake+AI;Building+Aegis+-+Personal+Cyber+Defense+Platform" alt="Typing SVG"/>
 
 </div>
