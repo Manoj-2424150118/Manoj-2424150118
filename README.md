@@ -64,6 +64,19 @@ MCA graduate from Manipal University Jaipur (2024–2026, CGPA 7.60) with a BCA 
 
 ---
 
+## Contribution City
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Manoj-2424150118/Manoj-2424150118/main/profile-3d-contrib/profile-night-view.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Manoj-2424150118/Manoj-2424150118/main/profile-3d-contrib/profile-green.svg">
+    <img alt="3D contribution city — every block is a day, taller blocks are busier days" src="https://raw.githubusercontent.com/Manoj-2424150118/Manoj-2424150118/main/profile-3d-contrib/profile-green.svg" width="100%">
+  </picture>
+</p>
+<p align="center"><em>Every block is a day of work; taller towers are busier days. Rebuilt nightly by GitHub Actions.</em></p>
+
+---
+
 ## Current Focus & Research
 
 - **Threat deception architectures** — extending **Deceptive-Net**, my capstone: a WGAN-GP framework that generates honey tokens, now with planted canary credentials (AWS keys, GitHub PATs, API keys, database DSNs) tracked through a SHA-256 fingerprint-only registry, so a leaked decoy identifies its source without ever storing the raw secret.
