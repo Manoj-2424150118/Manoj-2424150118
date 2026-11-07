@@ -71,6 +71,10 @@ MCA graduate from Manipal University Jaipur (2024–2026, CGPA 7.60) with a BCA 
 </p>
 <p align="center"><em>Every block is a day of work; taller towers are busier days. Rebuilt nightly by GitHub Actions.</em></p>
 
+<p align="center">
+  <img src="koi/koi.gif" width="256" alt="My contribution koi — it grows with my contributions, takes its colours from my languages, and fills its fins the longer my streak runs"/>
+</p>
+
 ---
 
 ## Current Focus & Research
