@@ -58,10 +58,6 @@ MCA graduate from Manipal University Jaipur (2024–2026, CGPA 7.60) with a BCA 
   <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Manoj-2424150118&layout=compact&title_color=7dd3fc&text_color=c9d1d9&bg_color=0d1117&border_color=7dd3fc" alt="Top Languages" width="49%"/>
 </p>
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Manoj-2424150118&theme=nord&border=7dd3fc&background=0d1117&ring=7dd3fc&fire=7dd3fc&currStreakLabel=7dd3fc" alt="GitHub Streak"/>
-</p>
-
 ---
 
 ## Contribution City
@@ -100,20 +96,6 @@ MCA graduate from Manipal University Jaipur (2024–2026, CGPA 7.60) with a BCA 
 | [FoldCrypt](https://github.com/Manoj-2424150118/FoldCrypt) | Folder encryption tool with a SHA-256 integrity manifest verified on unlock |
 | [Z-Security](https://github.com/Manoj-2424150118/Z-Security) | Kotlin Android security app — encrypted vault and TOTP authenticator |
 | [Wokie](https://github.com/Manoj-2424150118/Wokie) | Kotlin Android offline mesh messaging app with end-to-end encryption and delivery receipts |
-
----
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Manoj-2424150118/Manoj-2424150118/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Manoj-2424150118/Manoj-2424150118/output/github-contribution-grid-snake.svg">
-    <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/Manoj-2424150118/Manoj-2424150118/output/github-contribution-grid-snake.svg">
-  </picture>
-</p>
-
-<p align="center">
-  <img src="koi/koi.gif" width="256" alt="My contribution koi — it grows with my contributions, takes its colours from my languages, and fills its fins the longer my streak runs"/>
-</p>
 
 ---
 
