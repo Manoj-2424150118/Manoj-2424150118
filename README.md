@@ -97,6 +97,7 @@ MCA graduate from Manipal University Jaipur (2024–2026, CGPA 7.60) with a BCA 
 | [Aegis Cyber Defense Platform](https://github.com/Manoj-2424150118/aegis-cyber-defense-platform) | Personal cyber defense platform with 9 live security tools — FastAPI + React/TypeScript. [Live demo](https://aegis-cyber-defense-platform.onrender.com) |
 | [Deceptive-Net](https://github.com/Manoj-2424150118/Deceptive-Net-A-Honey-Token-Generative-Framework) | WGAN-GP honey-token generative framework for threat deception (MCA capstone) |
 | [SIEM](https://github.com/Manoj-2424150118/SIEM) | Webhook-driven defense node that auto-blocks malicious IPs and keeps a persistent incident ledger |
+| [SecurePasswordGenerator](https://github.com/Manoj-2424150118/SecurePasswordGenerator) | Java Swing secure password generator — KMAC-based DRBG work presented at ICDSA 2026 |
 | [FoldCrypt](https://github.com/Manoj-2424150118/FoldCrypt) | Folder encryption tool with a SHA-256 integrity manifest verified on unlock |
 | [Z-Security](https://github.com/Manoj-2424150118/Z-Security) | Kotlin Android security app — encrypted vault and TOTP authenticator |
 | [Wokie](https://github.com/Manoj-2424150118/Wokie) | Kotlin Android offline mesh messaging app with end-to-end encryption and delivery receipts |
