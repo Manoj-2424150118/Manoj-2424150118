@@ -1,34 +1,34 @@
 <p align="center">
-  <a href="https://Manoj-2424150118.github.io"><img src="./cards/hero.svg" width="100%" alt="Manoj Kumar Sharma — I build tools that check links, emails and files, and teach people to spot scams"/></a>
+  <a href="https://Manoj-2424150118.github.io"><img src="./cards/hero.svg?v=2" width="100%" alt="Manoj Kumar Sharma — I build tools that check links, emails and files, and teach people to spot scams"/></a>
 </p>
 
 <p align="center">
-  <img src="./cards/heatmap.svg" width="100%" alt="Contribution graph — last 52 weeks"/>
+  <img src="./cards/heatmap.svg?v=2" width="100%" alt="Contribution graph — last 52 weeks"/>
 </p>
 
 <p align="center">
-  <img src="./cards/activity.svg" width="100%" alt="Activity — contributions per month, streak, active days and busiest day"/>
+  <img src="./cards/activity.svg?v=2" width="100%" alt="Activity — contributions per month, streak, active days and busiest day"/>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Manoj-2424150118/aegis-cyber-defense-platform"><img src="./cards/tile-secure.svg" width="32.5%" alt="Secure — 9 live tools in Aegis"/></a>
-  <a href="https://Manoj-2424150118.github.io"><img src="./cards/tile-build.svg" width="32.5%" alt="Build — 6 core projects, documented and released"/></a>
-  <a href="https://github.com/Manoj-2424150118/SecurePasswordGenerator"><img src="./cards/tile-research.svg" width="32.5%" alt="Research — paper presented at ICDSA 2026"/></a>
+  <a href="https://github.com/Manoj-2424150118/aegis-cyber-defense-platform"><img src="./cards/tile-secure.svg?v=2" width="32.5%" alt="Secure — 9 live tools in Aegis"/></a>
+  <a href="https://Manoj-2424150118.github.io"><img src="./cards/tile-build.svg?v=2" width="32.5%" alt="Build — 6 core projects, documented and released"/></a>
+  <a href="https://github.com/Manoj-2424150118/SecurePasswordGenerator"><img src="./cards/tile-research.svg?v=2" width="32.5%" alt="Research — paper presented at ICDSA 2026"/></a>
 </p>
 
 ## Featured Projects
 
 <p align="center">
-  <a href="https://github.com/Manoj-2424150118/aegis-cyber-defense-platform"><img src="./cards/repo-1.svg" width="49%" alt="Aegis — scan links, emails and files with 9 live security tools"/></a>
-  <a href="https://github.com/Manoj-2424150118/Deceptive-Net-A-Honey-Token-Generative-Framework"><img src="./cards/repo-2.svg" width="49%" alt="Deceptive-Net — honey tokens with WGAN-GP and ML fraud scoring"/></a>
+  <a href="https://github.com/Manoj-2424150118/aegis-cyber-defense-platform"><img src="./cards/repo-1.svg?v=2" width="49%" alt="Aegis — scan links, emails and files with 9 live security tools"/></a>
+  <a href="https://github.com/Manoj-2424150118/Deceptive-Net-A-Honey-Token-Generative-Framework"><img src="./cards/repo-2.svg?v=2" width="49%" alt="Deceptive-Net — honey tokens with WGAN-GP and ML fraud scoring"/></a>
 </p>
 <p align="center">
-  <a href="https://github.com/Manoj-2424150118/SIEM"><img src="./cards/repo-3.svg" width="49%" alt="SIEM — auto-block malicious IPs via VirusTotal and OS firewall"/></a>
-  <a href="https://github.com/Manoj-2424150118/FoldCrypt"><img src="./cards/repo-4.svg" width="49%" alt="FoldCrypt — folder encryption with SHA-256 integrity manifests"/></a>
+  <a href="https://github.com/Manoj-2424150118/SIEM"><img src="./cards/repo-3.svg?v=2" width="49%" alt="SIEM — auto-block malicious IPs via VirusTotal and OS firewall"/></a>
+  <a href="https://github.com/Manoj-2424150118/FoldCrypt"><img src="./cards/repo-4.svg?v=2" width="49%" alt="FoldCrypt — folder encryption with SHA-256 integrity manifests"/></a>
 </p>
 <p align="center">
-  <a href="https://github.com/Manoj-2424150118/Z-Security"><img src="./cards/repo-5.svg" width="49%" alt="Z-Security — encrypted vault and TOTP authenticator for Android"/></a>
-  <a href="https://github.com/Manoj-2424150118/Wokie"><img src="./cards/repo-6.svg" width="49%" alt="Wokie — offline mesh messaging with end-to-end encryption"/></a>
+  <a href="https://github.com/Manoj-2424150118/Z-Security"><img src="./cards/repo-5.svg?v=2" width="49%" alt="Z-Security — encrypted vault and TOTP authenticator for Android"/></a>
+  <a href="https://github.com/Manoj-2424150118/Wokie"><img src="./cards/repo-6.svg?v=2" width="49%" alt="Wokie — offline mesh messaging with end-to-end encryption"/></a>
 </p>
 
 ---
