@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./cards/hero.svg" width="100%" alt="Manoj Kumar Sharma — Cybersecurity & Software Professional"/>
+  <a href="https://Manoj-2424150118.github.io"><img src="./cards/hero.svg" width="100%" alt="Manoj Kumar Sharma — I build tools that check links, emails and files, and teach people to spot scams"/></a>
 </p>
 
 <p align="center">

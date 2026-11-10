@@ -14,9 +14,11 @@
 @keyframes ring{0%{opacity:.7;transform:scale(.3)}70%{opacity:0;transform:scale(1.9)}100%{opacity:0;transform:scale(1.9)}}
 .nudge{animation:nudge 2.6s ease-in-out infinite}
 @keyframes nudge{0%,100%{transform:translateX(0)}50%{transform:translateX(5px)}}
+.swing{opacity:0;transform-box:fill-box;transform-origin:50% 100%;animation:swing .9s cubic-bezier(.2,.7,.3,1.2) forwards}
+@keyframes swing{0%{opacity:0;transform:translateY(52px) rotate(2.6deg)}60%{opacity:1;transform:translateY(-7px) rotate(-.7deg)}100%{opacity:1;transform:translateY(0) rotate(0deg)}}
 .static *{animation:none!important}
-.static .rise,.static .fade,.static .pop,.static .grow{opacity:1!important;transform:none!important}
+.static .rise,.static .fade,.static .pop,.static .grow,.static .swing{opacity:1!important;transform:none!important}
 @media (prefers-reduced-motion: reduce){*{animation:none!important}}
 </style>
-<rect x="0.5" y="0.5" width="431" height="175" rx="12" fill="#0d1117" stroke="#30363d"/>
-<g class="rise" style="animation-delay:3.15s"><circle cx="30" cy="38" r="6" fill="#d29922"/><text x="48" y="46" font-size="23" fill="#e6edf3" style="font-family:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-weight="600">FoldCrypt</text><text x="408" y="46" text-anchor="end" font-size="11.5" fill="#d29922" style="font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace">v1.0.0</text><text x="26" y="84" font-size="15" fill="#8b949e" style="font-family:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">Encrypt folders with AES, PBKDF2 &amp; SHA-256 manifests</text><line x1="26" y1="118" x2="406" y2="118" stroke="#30363d"/><text x="26" y="146" font-size="12.5" fill="#6e7681" style="font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace">Python · Tkinter — 11 tests · CI</text></g></svg>
+<rect x="0.5" y="0.5" width="431" height="175" rx="12" fill="#f6f3ec" stroke="#ddd5c2"/>
+<g class="rise" style="animation-delay:3.15s"><circle cx="30" cy="38" r="6" fill="#e3a008"/><text x="48" y="46" font-size="23" fill="#171512" style="font-family:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-weight="600">FoldCrypt</text><text x="408" y="46" text-anchor="end" font-size="11.5" fill="#e3a008" style="font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace">v1.0.0</text><text x="26" y="84" font-size="15" fill="#55534a" style="font-family:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">Encrypt folders with AES, PBKDF2 &amp; SHA-256 manifests</text><line x1="26" y1="118" x2="406" y2="118" stroke="#ddd5c2"/><text x="26" y="146" font-size="12.5" fill="#8a8578" style="font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace">Python · Tkinter — 11 tests · CI</text></g></svg>

@@ -106,16 +106,20 @@ def stats(days):
 
 # ---------------------------------------------------------------- svg helpers
 
-BG = "#0d1117"
-PANEL = "#161b22"
-BORDER = "#30363d"
-INK = "#e6edf3"
-DIM = "#8b949e"
-FAINT = "#6e7681"
-SKY = "#38bdf8"
-SKY_LT = "#7dd3fc"
-GREEN = "#3fb950"
-AMBER = "#d29922"
+BG = "#f6f3ec"
+PANEL = "#efe9dc"
+BORDER = "#ddd5c2"
+INK = "#171512"
+INK_SOFT = "#3d3a33"
+PORTRAIT_INK = "#33302a"
+DIM = "#55534a"
+FAINT = "#8a8578"
+SKY = "#2e56e8"
+SKY_LT = "#7d9bff"
+DEEP = "#1d3fa8"
+GREEN = "#1a7f37"
+AMBER = "#e3a008"
+RED = "#e2483d"
 
 FONT_CSS = ""
 
@@ -124,11 +128,14 @@ def font_face():
     global FONT_CSS
     if FONT_CSS:
         return FONT_CSS
-    path = os.path.join(ROOT, "scripts", "fonts", "serif-sub.woff")
-    with open(path, "rb") as f:
-        b64 = base64.b64encode(f.read()).decode()
-    FONT_CSS = ("@font-face{font-family:'Instrument Serif';"
-                f"src:url(data:font/woff;base64,{b64}) format('woff');}}")
+    faces = []
+    for fname, style in (("serif-sub.woff", "normal"), ("serif-italic-sub.woff", "italic")):
+        path = os.path.join(ROOT, "scripts", "fonts", fname)
+        with open(path, "rb") as f:
+            b64 = base64.b64encode(f.read()).decode()
+        faces.append("@font-face{font-family:'Instrument Serif';font-style:" + style + ";"
+                     f"src:url(data:font/woff;base64,{b64}) format('woff');}}")
+    FONT_CSS = "".join(faces)
     return FONT_CSS
 
 
@@ -147,8 +154,10 @@ BASE_CSS = """
 @keyframes ring{0%{opacity:.7;transform:scale(.3)}70%{opacity:0;transform:scale(1.9)}100%{opacity:0;transform:scale(1.9)}}
 .nudge{animation:nudge 2.6s ease-in-out infinite}
 @keyframes nudge{0%,100%{transform:translateX(0)}50%{transform:translateX(5px)}}
+.swing{opacity:0;transform-box:fill-box;transform-origin:50% 100%;animation:swing .9s cubic-bezier(.2,.7,.3,1.2) forwards}
+@keyframes swing{0%{opacity:0;transform:translateY(52px) rotate(2.6deg)}60%{opacity:1;transform:translateY(-7px) rotate(-.7deg)}100%{opacity:1;transform:translateY(0) rotate(0deg)}}
 .static *{animation:none!important}
-.static .rise,.static .fade,.static .pop,.static .grow{opacity:1!important;transform:none!important}
+.static .rise,.static .fade,.static .pop,.static .grow,.static .swing{opacity:1!important;transform:none!important}
 @media (prefers-reduced-motion: reduce){*{animation:none!important}}
 """
 
@@ -214,30 +223,32 @@ def count_up(x, y, target, color, size, delay, anchor="middle", frames=14):
 # ---------------------------------------------------------------- cards
 
 def hero():
-    w, h = 880, 396
+    w, h = 880, 516
     s = [svg_open(w, h, with_font=True)]
     s.append('<defs>' + shine_gradient("shine", INK, SKY_LT) + '</defs>')
-    s.append(f'<circle cx="790" cy="-40" r="230" fill="{SKY}" opacity="0.05"/>')
-    s.append(f'<text x="48" y="64" font-size="13" letter-spacing="3" fill="{FAINT}" '
-             f'style="{MONO};animation-delay:0.1s" class="fade">GITHUB.COM/MANOJ-2424150118</text>')
-    s.append(f'<text x="46" y="172" font-size="88" fill="{INK}" style="{SERIF};animation-delay:0.15s" '
+    # kicker: pulsing periwinkle square + mono role line (reference: role at org)
+    s.append(f'<rect x="54" y="45" width="13" height="13" rx="3.5" fill="#a3b8f8" class="pulse"/>')
+    s.append(f'<text x="78" y="57" font-size="13" letter-spacing="3" fill="{DIM}" '
+             f'style="{MONO};animation-delay:0.05s" class="fade">AI FELLOW AT HANDSHAKE AI</text>')
+    s.append(f'<text x="52" y="208" font-size="96" fill="{INK}" style="{SERIF};animation-delay:0.15s" '
              f'class="rise">Manoj Kumar</text>')
-    s.append(f'<text x="46" y="260" font-size="88" fill="url(#shine)" style="{SERIF};animation-delay:0.35s" '
-             f'class="rise">SHARMA</text>')
-    s.append(f'<text x="48" y="302" font-size="24" fill="{SKY}" style="{SANS};animation-delay:0.6s" '
-             f'class="rise">Cybersecurity &amp; Software Professional</text>')
-    s.append(f'<text x="48" y="330" font-size="15.5" fill="{DIM}" style="{SANS};animation-delay:0.75s" '
-             f'class="rise">MCA · Manipal University Jaipur — AI Fellow at Handshake AI · Jaipur, India</text>')
-    # ASCII portrait (from his photo; data in scripts/portrait.txt) — prints in
-    # row by row like a slow terminal, 18 ms per row, as in the reference design.
+    s.append(f'<text x="52" y="314" font-size="96" fill="url(#shine)" font-style="italic" '
+             f'style="{SERIF};animation-delay:0.35s" class="rise">Sharma</text>')
+    s.append(f'<text x="54" y="374" font-size="19.5" fill="{INK_SOFT}" style="{SANS};animation-delay:0.6s" '
+             f'class="rise">I build tools that check links, emails</text>')
+    s.append(f'<text x="54" y="402" font-size="19.5" fill="{INK_SOFT}" style="{SANS};animation-delay:0.7s" '
+             f'class="rise">and files, and teach people to spot scams.</text>')
+    s.append(f'<text x="54" y="454" font-size="15" fill="{INK}" style="{MONO};animation-delay:0.9s" '
+             f'class="fade">manoj-2424150118.github.io<tspan fill="{SKY}"> ↗</tspan></text>')
+    # ASCII portrait (from his photo; data in scripts/portrait.txt) — 96 rows,
+    # printing in row by row like a slow terminal, 18 ms per row (reference design).
     ppath = os.path.join(ROOT, "scripts", "portrait.txt")
     if os.path.exists(ppath):
         with open(ppath) as f:
-            rows = [ln.rstrip("\n") for ln in f if ln.strip() or True]
-        rows = [r for r in rows if r != "" or True][:]
+            rows = [ln.rstrip("\n") for ln in f]
         for i, row in enumerate(rows):
             if not row.strip():
-                continue
+                row = " "  # blank rows still print (a beat in the terminal rhythm)
             delay = 0.55 + i * 0.018
             if STATIC:
                 st = MONO
@@ -245,7 +256,7 @@ def hero():
             else:
                 st = f"{MONO};animation-delay:{delay:.2f}s"
                 cls = ' class="fade"'
-            s.append(f'<text x="578" y="{30 + i * 8.9:.0f}" font-size="10" fill="#b6c9d8" '
+            s.append(f'<text x="492" y="{30 + i * 4.9:.0f}" font-size="5.6" fill="{PORTRAIT_INK}" '
                      f'style="{st}" xml:space="preserve"{cls}>{esc(row)}</text>')
     return "".join(s) + svg_close()
 
@@ -271,14 +282,14 @@ def heatmap(days):
     maxc = max(c for _, c in days) or 1
     def level(c):
         if c == 0:
-            return "#161b22"
+            return "#e9e4d6"
         if c <= 3:
-            return "#123a52"
+            return "#ccd8fc"
         if c <= 7:
-            return "#155e86"
+            return "#8aa5f8"
         if c <= maxc * 0.6:
             return SKY
-        return SKY_LT
+        return DEEP
     month_labels = {}
     for ci in range(cols):
         sun = start_sunday + dt.timedelta(weeks=ci)
@@ -314,12 +325,12 @@ def activity(days):
     for i, (key, v) in enumerate(months):
         bh = max(2, (v / maxv) * (base_y - top_y))
         bx = x + i * (bw + gap)
-        color = SKY if key == best_key else "#264a63"
+        color = SKY if key == best_key else "#2b2925"
         delay = 1.5 + i * 0.05
         anim = "" if STATIC else f' class="grow" style="animation-delay:{delay:.2f}s"'
         s.append(f'<rect x="{bx:.0f}" y="{base_y - bh:.0f}" width="{bw}" height="{bh:.0f}" rx="4" fill="{color}"{anim}/>')
         lab = dt.datetime.strptime(key, "%Y-%m").strftime("%b")
-        vcol = SKY_LT if key == best_key else DIM
+        vcol = SKY if key == best_key else DIM
         s.append(f'<text x="{bx + bw/2:.0f}" y="{base_y - bh - 8:.0f}" text-anchor="middle" font-size="13" fill="{vcol}" style="{MONO}">{v}</text>')
         s.append(f'<text x="{bx + bw/2:.0f}" y="{base_y + 20}" text-anchor="middle" font-size="11.5" fill="{FAINT}" style="{MONO}">{lab}</text>')
     s.append(f'<line x1="40" y1="{base_y}" x2="840" y2="{base_y}" stroke="{BORDER}"/>')
@@ -342,8 +353,13 @@ def activity(days):
 def tile(fname, num_label, count, word, desc_lines, foot, color, delay):
     w, h = 288, 330
     s = [svg_open(w, h, with_font=True)]
+    # the whole tile swings up from below, tilted, overshoots and settles (reference entrance)
+    if STATIC:
+        s.append('<g>')
+    else:
+        s.append(f'<g class="swing" style="animation-delay:{delay:.2f}s">')
     s.append(f'<rect x="0.5" y="0.5" width="{w-1}" height="5" fill="{color}"/>')
-    s.append(f'<rect x="0" y="0" width="{w}" height="{h}" fill="{color}" opacity="0.05"/>')
+    s.append(f'<rect x="0" y="0" width="{w}" height="{h}" fill="{color}" opacity="0.07"/>')
     s.append(f'<circle cx="252" cy="42" r="15" fill="none" stroke="{color}" stroke-width="1.5" class="ring"/>')
     s.append(f'<circle cx="252" cy="42" r="5" fill="{color}" class="pulse"/>')
     s.append(f'<text x="26" y="48" font-size="11.5" letter-spacing="2.5" fill="{FAINT}" style="{MONO}">{num_label}</text>')
@@ -353,6 +369,7 @@ def tile(fname, num_label, count, word, desc_lines, foot, color, delay):
         s.append(f'<text x="26" y="{248 + i * 20}" font-size="14.5" fill="{DIM}" style="{SANS};animation-delay:{delay + 0.3 + i * 0.08:.2f}s" class="fade">{line}</text>')
     s.append(f'<text x="26" y="312" font-size="12" fill="{color}" style="{MONO};animation-delay:{delay + 0.55:.2f}s" class="fade">{foot}</text>')
     s.append(f'<text x="252" y="313" text-anchor="middle" font-size="16" fill="{color}" class="nudge">→</text>')
+    s.append('</g>')
     return "".join(s) + svg_close()
 
 
@@ -368,7 +385,7 @@ REPOS = [
     ("Z-Security", "Encrypted vault &amp; TOTP authenticator Android app",
      "Kotlin · Compose · SQLCipher — 23 tests · CI", "v1.2.1", GREEN),
     ("Wokie", "Offline mesh messaging app with end-to-end encryption",
-     "Kotlin · BLE mesh · AES-256-GCM · 96 tests", "v1.2.1", "#39c5cf"),
+     "Kotlin · BLE mesh · AES-256-GCM · 96 tests", "v1.2.1", "#0e7c86"),
 ]
 
 
@@ -403,7 +420,7 @@ def main():
                                 "aegis · live demo", SKY, 2.1),
         "tile-build.svg": tile("build", "02 — BUILD", 6, "Build",
                                ["Core projects, documented", "&amp; released — platforms,", "deception research, Android"],
-                               "portfolio · live site", GREEN, 2.3),
+                               "portfolio · live site", RED, 2.3),
         "tile-research.svg": tile("research", "03 — RESEARCH", 1, "Research",
                                   ["Paper presented at ICDSA 2026 —", "a KMAC-based DRBG for robust", "password generation"],
                                   "kmac drbg · under review", AMBER, 2.5),

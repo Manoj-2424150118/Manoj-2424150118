@@ -14,9 +14,11 @@
 @keyframes ring{0%{opacity:.7;transform:scale(.3)}70%{opacity:0;transform:scale(1.9)}100%{opacity:0;transform:scale(1.9)}}
 .nudge{animation:nudge 2.6s ease-in-out infinite}
 @keyframes nudge{0%,100%{transform:translateX(0)}50%{transform:translateX(5px)}}
+.swing{opacity:0;transform-box:fill-box;transform-origin:50% 100%;animation:swing .9s cubic-bezier(.2,.7,.3,1.2) forwards}
+@keyframes swing{0%{opacity:0;transform:translateY(52px) rotate(2.6deg)}60%{opacity:1;transform:translateY(-7px) rotate(-.7deg)}100%{opacity:1;transform:translateY(0) rotate(0deg)}}
 .static *{animation:none!important}
-.static .rise,.static .fade,.static .pop,.static .grow{opacity:1!important;transform:none!important}
+.static .rise,.static .fade,.static .pop,.static .grow,.static .swing{opacity:1!important;transform:none!important}
 @media (prefers-reduced-motion: reduce){*{animation:none!important}}
 </style>
-<rect x="0.5" y="0.5" width="431" height="175" rx="12" fill="#0d1117" stroke="#30363d"/>
-<g class="rise" style="animation-delay:3.45s"><circle cx="30" cy="38" r="6" fill="#39c5cf"/><text x="48" y="46" font-size="23" fill="#e6edf3" style="font-family:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-weight="600">Wokie</text><text x="408" y="46" text-anchor="end" font-size="11.5" fill="#39c5cf" style="font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace">v1.2.1</text><text x="26" y="84" font-size="15" fill="#8b949e" style="font-family:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">Offline mesh messaging app with end-to-end encryption</text><line x1="26" y1="118" x2="406" y2="118" stroke="#30363d"/><text x="26" y="146" font-size="12.5" fill="#6e7681" style="font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace">Kotlin · BLE mesh · AES-256-GCM · 96 tests</text></g></svg>
+<rect x="0.5" y="0.5" width="431" height="175" rx="12" fill="#f6f3ec" stroke="#ddd5c2"/>
+<g class="rise" style="animation-delay:3.45s"><circle cx="30" cy="38" r="6" fill="#0e7c86"/><text x="48" y="46" font-size="23" fill="#171512" style="font-family:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-weight="600">Wokie</text><text x="408" y="46" text-anchor="end" font-size="11.5" fill="#0e7c86" style="font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace">v1.2.1</text><text x="26" y="84" font-size="15" fill="#55534a" style="font-family:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">Offline mesh messaging app with end-to-end encryption</text><line x1="26" y1="118" x2="406" y2="118" stroke="#ddd5c2"/><text x="26" y="146" font-size="12.5" fill="#8a8578" style="font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace">Kotlin · BLE mesh · AES-256-GCM · 96 tests</text></g></svg>
