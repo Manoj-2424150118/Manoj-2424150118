@@ -219,15 +219,15 @@ def hero():
     s.append('<defs>' + shine_gradient("shine", INK, SKY_LT) + '</defs>')
     s.append(f'<circle cx="790" cy="-40" r="230" fill="{SKY}" opacity="0.05"/>')
     s.append(f'<text x="48" y="64" font-size="13" letter-spacing="3" fill="{FAINT}" '
-             f'style="{MONO}" class="fade" animation-delay="0.1s">GITHUB.COM/MANOJ-2424150118</text>')
-    s.append(f'<text x="46" y="172" font-size="88" fill="{INK}" style="{SERIF}" '
-             f'class="rise" animation-delay="0.15s">Manoj Kumar</text>')
-    s.append(f'<text x="46" y="260" font-size="88" fill="url(#shine)" style="{SERIF}" '
-             f'class="rise" animation-delay="0.35s">SHARMA</text>')
-    s.append(f'<text x="48" y="302" font-size="24" fill="{SKY}" style="{SANS}" '
-             f'class="rise" animation-delay="0.6s">Cybersecurity &amp; Software Professional</text>')
-    s.append(f'<text x="48" y="330" font-size="15.5" fill="{DIM}" style="{SANS}" '
-             f'class="rise" animation-delay="0.75s">MCA · Manipal University Jaipur — AI Fellow at Handshake AI · Jaipur, India</text>')
+             f'style="{MONO};animation-delay:0.1s" class="fade">GITHUB.COM/MANOJ-2424150118</text>')
+    s.append(f'<text x="46" y="172" font-size="88" fill="{INK}" style="{SERIF};animation-delay:0.15s" '
+             f'class="rise">Manoj Kumar</text>')
+    s.append(f'<text x="46" y="260" font-size="88" fill="url(#shine)" style="{SERIF};animation-delay:0.35s" '
+             f'class="rise">SHARMA</text>')
+    s.append(f'<text x="48" y="302" font-size="24" fill="{SKY}" style="{SANS};animation-delay:0.6s" '
+             f'class="rise">Cybersecurity &amp; Software Professional</text>')
+    s.append(f'<text x="48" y="330" font-size="15.5" fill="{DIM}" style="{SANS};animation-delay:0.75s" '
+             f'class="rise">MCA · Manipal University Jaipur — AI Fellow at Handshake AI · Jaipur, India</text>')
     # ASCII portrait (from his photo; data in scripts/portrait.txt) — prints in
     # row by row like a slow terminal, 18 ms per row, as in the reference design.
     ppath = os.path.join(ROOT, "scripts", "portrait.txt")
@@ -239,9 +239,14 @@ def hero():
             if not row.strip():
                 continue
             delay = 0.55 + i * 0.018
-            anim = "" if STATIC else f' class="fade" style="animation-delay:{delay:.2f}s"'
+            if STATIC:
+                st = MONO
+                cls = ""
+            else:
+                st = f"{MONO};animation-delay:{delay:.2f}s"
+                cls = ' class="fade"'
             s.append(f'<text x="578" y="{30 + i * 8.9:.0f}" font-size="10" fill="#b6c9d8" '
-                     f'style="{MONO}" xml:space="preserve"{anim}>{esc(row)}</text>')
+                     f'style="{st}" xml:space="preserve"{cls}>{esc(row)}</text>')
     return "".join(s) + svg_close()
 
 
@@ -343,10 +348,10 @@ def tile(fname, num_label, count, word, desc_lines, foot, color, delay):
     s.append(f'<circle cx="252" cy="42" r="5" fill="{color}" class="pulse"/>')
     s.append(f'<text x="26" y="48" font-size="11.5" letter-spacing="2.5" fill="{FAINT}" style="{MONO}">{num_label}</text>')
     s.append(count_up(60, 168, count, color, 104, delay, anchor="middle"))
-    s.append(f'<text x="26" y="216" font-size="37" fill="{INK}" style="{SERIF}" class="rise" animation-delay="{delay + 0.15:.2f}s">{word}</text>')
+    s.append(f'<text x="26" y="216" font-size="37" fill="{INK}" style="{SERIF};animation-delay:{delay + 0.15:.2f}s" class="rise">{word}</text>')
     for i, line in enumerate(desc_lines):
-        s.append(f'<text x="26" y="{248 + i * 20}" font-size="14.5" fill="{DIM}" style="{SANS}" class="fade" animation-delay="{delay + 0.3 + i * 0.08:.2f}s">{line}</text>')
-    s.append(f'<text x="26" y="312" font-size="12" fill="{color}" style="{MONO}" class="fade" animation-delay="{delay + 0.55:.2f}s">{foot}</text>')
+        s.append(f'<text x="26" y="{248 + i * 20}" font-size="14.5" fill="{DIM}" style="{SANS};animation-delay:{delay + 0.3 + i * 0.08:.2f}s" class="fade">{line}</text>')
+    s.append(f'<text x="26" y="312" font-size="12" fill="{color}" style="{MONO};animation-delay:{delay + 0.55:.2f}s" class="fade">{foot}</text>')
     s.append(f'<text x="252" y="313" text-anchor="middle" font-size="16" fill="{color}" class="nudge">→</text>')
     return "".join(s) + svg_close()
 
@@ -371,7 +376,7 @@ def repo_card(idx, name, desc, meta, tag, color):
     w, h = 432, 176
     delay = 2.7 + idx * 0.15
     s = [svg_open(w, h)]
-    s.append(f'<g class="rise" animation-delay="{delay:.2f}s">')
+    s.append(f'<g class="rise" style="animation-delay:{delay:.2f}s">')
     s.append(f'<circle cx="30" cy="38" r="6" fill="{color}"/>')
     s.append(f'<text x="48" y="46" font-size="23" fill="{INK}" style="{SANS}" font-weight="600">{esc(name)}</text>')
     s.append(f'<text x="{w - 24}" y="46" text-anchor="end" font-size="11.5" fill="{color}" style="{MONO}">{esc(tag)}</text>')
