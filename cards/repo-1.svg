@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="432" height="176" viewBox="0 0 432 176">
+<style>
+.rise{opacity:0;animation:rise .8s cubic-bezier(.2,.7,.3,1) forwards}
+@keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+.pop{opacity:0;transform-box:fill-box;transform-origin:center;animation:pop .45s ease-out forwards}
+@keyframes pop{0%{opacity:0;transform:scale(0)}70%{opacity:1;transform:scale(1.25)}100%{opacity:1;transform:scale(1)}}
+.grow{transform-box:fill-box;transform-origin:bottom;animation:grow .7s cubic-bezier(.2,.7,.3,1) forwards;transform:scaleY(0)}
+@keyframes grow{to{transform:scaleY(1)}}
+.fade{opacity:0;animation:fadein .9s ease-out forwards}
+@keyframes fadein{to{opacity:1}}
+.pulse{animation:pulse 2.2s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+.ring{transform-box:fill-box;transform-origin:center;animation:ring 3.2s ease-out infinite;opacity:0}
+@keyframes ring{0%{opacity:.7;transform:scale(.3)}70%{opacity:0;transform:scale(1.9)}100%{opacity:0;transform:scale(1.9)}}
+.nudge{animation:nudge 2.6s ease-in-out infinite}
+@keyframes nudge{0%,100%{transform:translateX(0)}50%{transform:translateX(5px)}}
+.static *{animation:none!important}
+.static .rise,.static .fade,.static .pop,.static .grow{opacity:1!important;transform:none!important}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect x="0.5" y="0.5" width="431" height="175" rx="12" fill="#0d1117" stroke="#30363d"/>
+<g class="rise" animation-delay="2.70s"><circle cx="30" cy="38" r="6" fill="#38bdf8"/><text x="48" y="46" font-size="23" fill="#e6edf3" style="font-family:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-weight="600">Aegis</text><text x="408" y="46" text-anchor="end" font-size="11.5" fill="#38bdf8" style="font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace">LIVE · v1.8.0</text><text x="26" y="84" font-size="15" fill="#8b949e" style="font-family:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">Scan links, emails &amp; files with 9 live security tools</text><line x1="26" y1="118" x2="406" y2="118" stroke="#30363d"/><text x="26" y="146" font-size="12.5" fill="#6e7681" style="font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace">FastAPI · React 19 · TypeScript · 161 tests</text></g></svg>

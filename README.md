@@ -1,13 +1,39 @@
-<div align="center">
+<p align="center">
+  <img src="./cards/hero.svg" width="100%" alt="Manoj Kumar Sharma — Cybersecurity & Software Professional"/>
+</p>
 
-<img src="assets/profile-hero.svg" width="100%" alt="Manoj Kumar Sharma — Cybersecurity & Software Professional"/>
+<p align="center">
+  <img src="./cards/heatmap.svg" width="100%" alt="Contribution graph — last 52 weeks"/>
+</p>
 
-### Cybersecurity & Software Professional
+<p align="center">
+  <img src="./cards/activity.svg" width="100%" alt="Activity — contributions per month, streak, active days and busiest day"/>
+</p>
 
-<img src="https://komarev.com/ghpvc/?username=Manoj-2424150118&label=Profile%20Views&color=7dd3fc&style=flat-square" alt="Profile Views"/>
-<img src="https://img.shields.io/github/followers/Manoj-2424150118?label=Followers&style=flat-square&color=7dd3fc" alt="Followers"/>
+<p align="center">
+  <a href="https://github.com/Manoj-2424150118/aegis-cyber-defense-platform"><img src="./cards/tile-secure.svg" width="32.5%" alt="Secure — 9 live tools in Aegis"/></a>
+  <a href="https://Manoj-2424150118.github.io"><img src="./cards/tile-build.svg" width="32.5%" alt="Build — 6 core projects, documented and released"/></a>
+  <a href="https://github.com/Manoj-2424150118/SecurePasswordGenerator"><img src="./cards/tile-research.svg" width="32.5%" alt="Research — paper presented at ICDSA 2026"/></a>
+</p>
 
-</div>
+## Featured Projects
+
+<p align="center">
+  <a href="https://github.com/Manoj-2424150118/aegis-cyber-defense-platform"><img src="./cards/repo-1.svg" width="49%" alt="Aegis — scan links, emails and files with 9 live security tools"/></a>
+  <a href="https://github.com/Manoj-2424150118/Deceptive-Net-A-Honey-Token-Generative-Framework"><img src="./cards/repo-2.svg" width="49%" alt="Deceptive-Net — honey tokens with WGAN-GP and ML fraud scoring"/></a>
+</p>
+<p align="center">
+  <a href="https://github.com/Manoj-2424150118/SIEM"><img src="./cards/repo-3.svg" width="49%" alt="SIEM — auto-block malicious IPs via VirusTotal and OS firewall"/></a>
+  <a href="https://github.com/Manoj-2424150118/FoldCrypt"><img src="./cards/repo-4.svg" width="49%" alt="FoldCrypt — folder encryption with SHA-256 integrity manifests"/></a>
+</p>
+<p align="center">
+  <a href="https://github.com/Manoj-2424150118/Z-Security"><img src="./cards/repo-5.svg" width="49%" alt="Z-Security — encrypted vault and TOTP authenticator for Android"/></a>
+  <a href="https://github.com/Manoj-2424150118/Wokie"><img src="./cards/repo-6.svg" width="49%" alt="Wokie — offline mesh messaging with end-to-end encryption"/></a>
+</p>
+
+---
+
+## About
 
 MCA graduate from Manipal University Jaipur (2024–2026, CGPA 7.60) with a BCA in Cloud Technology & Information Security from Vivekananda Global University. I build secure software and defensive tooling — from a live multi-tool cyber defense platform to generative honey-token deception systems — and my research sits in applied cryptography, where my paper on a KMAC-based deterministic random bit generator was presented at ICDSA 2026 and is currently under review. Currently an AI Fellow at Handshake AI; previously a Cyber Security Intern at Plasmid Innovation. Based in Jaipur, India, and open to cybersecurity and software roles across India.
 
@@ -51,32 +77,6 @@ MCA graduate from Manipal University Jaipur (2024–2026, CGPA 7.60) with a BCA 
 
 ---
 
-## GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Manoj-2424150118&show_icons=true&title_color=7dd3fc&icon_color=7dd3fc&text_color=c9d1d9&bg_color=0d1117&border_color=7dd3fc" alt="Manoj's GitHub Stats" width="49%"/>
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Manoj-2424150118&layout=compact&title_color=7dd3fc&text_color=c9d1d9&bg_color=0d1117&border_color=7dd3fc" alt="Top Languages" width="49%"/>
-</p>
-
----
-
-## Contribution City
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Manoj-2424150118/Manoj-2424150118/main/profile-3d-contrib/profile-night-view.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Manoj-2424150118/Manoj-2424150118/main/profile-3d-contrib/profile-green.svg">
-    <img alt="3D contribution city — every block is a day, taller blocks are busier days" src="https://raw.githubusercontent.com/Manoj-2424150118/Manoj-2424150118/main/profile-3d-contrib/profile-green.svg" width="100%">
-  </picture>
-</p>
-<p align="center"><em>Every block is a day of work; taller towers are busier days. Rebuilt nightly by GitHub Actions.</em></p>
-
-<p align="center">
-  <img src="koi/koi.gif" width="256" alt="My contribution koi — it grows with my contributions, takes its colours from my languages, and fills its fins the longer my streak runs"/>
-</p>
-
----
-
 ## Current Focus & Research
 
 - **Threat deception architectures** — extending **Deceptive-Net**, my capstone: a WGAN-GP framework that generates honey tokens, now with planted canary credentials (AWS keys, GitHub PATs, API keys, database DSNs) tracked through a SHA-256 fingerprint-only registry, so a leaked decoy identifies its source without ever storing the raw secret.
@@ -90,20 +90,13 @@ MCA graduate from Manipal University Jaipur (2024–2026, CGPA 7.60) with a BCA 
 
 ---
 
-## Featured Projects
-
-| Project | What it is |
-|---|---|
-| [Aegis Cyber Defense Platform](https://github.com/Manoj-2424150118/aegis-cyber-defense-platform) | Personal cyber defense platform with 9 live security tools — FastAPI + React/TypeScript. [Live demo](https://aegis-cyber-defense-platform.onrender.com) |
-| [Deceptive-Net](https://github.com/Manoj-2424150118/Deceptive-Net-A-Honey-Token-Generative-Framework) | WGAN-GP honey-token generative framework for threat deception (MCA capstone) |
-| [SIEM](https://github.com/Manoj-2424150118/SIEM) | Webhook-driven defense node that auto-blocks malicious IPs and keeps a persistent incident ledger |
-| [SecurePasswordGenerator](https://github.com/Manoj-2424150118/SecurePasswordGenerator) | Java Swing secure password generator — KMAC-based DRBG work presented at ICDSA 2026 |
-| [FoldCrypt](https://github.com/Manoj-2424150118/FoldCrypt) | Folder encryption tool with a SHA-256 integrity manifest verified on unlock |
-| [Z-Security](https://github.com/Manoj-2424150118/Z-Security) | Kotlin Android security app — encrypted vault and TOTP authenticator |
-| [Wokie](https://github.com/Manoj-2424150118/Wokie) | Kotlin Android offline mesh messaging app with end-to-end encryption and delivery receipts |
-
----
-
 ## Contact
 
 📧 [sharmamanojkumar697@gmail.com](mailto:sharmamanojkumar697@gmail.com) · 💼 [LinkedIn — ManojTheGeek](https://www.linkedin.com/in/ManojTheGeek) · 📍 Jaipur, India
+
+<p>
+  <img src="https://komarev.com/ghpvc/?username=Manoj-2424150118&label=Profile%20Views&color=7dd3fc&style=flat-square" alt="Profile Views"/>
+  <img src="https://img.shields.io/github/followers/Manoj-2424150118?label=Followers&style=flat-square&color=7dd3fc" alt="Followers"/>
+</p>
+
+<sub>The cards at the top of this profile are animated SVGs drawn from my real contribution data by <a href="./scripts/render_readme_cards.py">scripts/render_readme_cards.py</a>, refreshed daily by GitHub Actions.</sub>
