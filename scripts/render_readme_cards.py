@@ -106,20 +106,33 @@ def stats(days):
 
 # ---------------------------------------------------------------- svg helpers
 
-BG = "#f6f3ec"
-PANEL = "#efe9dc"
-BORDER = "#ddd5c2"
-INK = "#171512"
-INK_SOFT = "#3d3a33"
-PORTRAIT_INK = "#33302a"
-DIM = "#55534a"
-FAINT = "#8a8578"
-SKY = "#2e56e8"
-SKY_LT = "#7d9bff"
-DEEP = "#1d3fa8"
-GREEN = "#1a7f37"
-AMBER = "#e3a008"
-RED = "#e2483d"
+THEMES = {
+    "light": {
+        "BG": "#f6f3ec", "PANEL": "#efe9dc", "BORDER": "#ddd5c2",
+        "INK": "#171512", "INK_SOFT": "#3d3a33", "PORTRAIT_INK": "#33302a",
+        "DIM": "#55534a", "FAINT": "#8a8578",
+        "SKY": "#2e56e8", "SKY_LT": "#7d9bff", "DEEP": "#1d3fa8",
+        "GREEN": "#1a7f37", "AMBER": "#e3a008", "RED": "#e2483d",
+        "HEAT0": "#e9e4d6", "HEAT1": "#ccd8fc", "HEAT2": "#8aa5f8",
+        "BAR_INK": "#2b2925", "PURPLE": "#a371f7", "TEAL": "#0e7c86",
+    },
+    "dark": {
+        "BG": "#0d1117", "PANEL": "#161b22", "BORDER": "#2c3646",
+        "INK": "#e6edf3", "INK_SOFT": "#c3ccd6", "PORTRAIT_INK": "#b9cbdd",
+        "DIM": "#9aa7b4", "FAINT": "#6e7a88",
+        "SKY": "#5b83f5", "SKY_LT": "#a9c2ff", "DEEP": "#7d9bff",
+        "GREEN": "#3fb950", "AMBER": "#eab308", "RED": "#f0665e",
+        "HEAT0": "#1c2330", "HEAT1": "#173a75", "HEAT2": "#1f5fd0",
+        "BAR_INK": "#d7dee8", "PURPLE": "#bc8cff", "TEAL": "#39c5cf",
+    },
+}
+
+
+def apply_theme(name):
+    globals().update(THEMES[name])
+
+
+apply_theme("light")
 
 FONT_CSS = ""
 
@@ -282,11 +295,11 @@ def heatmap(days):
     maxc = max(c for _, c in days) or 1
     def level(c):
         if c == 0:
-            return "#e9e4d6"
+            return HEAT0
         if c <= 3:
-            return "#ccd8fc"
+            return HEAT1
         if c <= 7:
-            return "#8aa5f8"
+            return HEAT2
         if c <= maxc * 0.6:
             return SKY
         return DEEP
@@ -325,7 +338,7 @@ def activity(days):
     for i, (key, v) in enumerate(months):
         bh = max(2, (v / maxv) * (base_y - top_y))
         bx = x + i * (bw + gap)
-        color = SKY if key == best_key else "#2b2925"
+        color = SKY if key == best_key else BAR_INK
         delay = 1.5 + i * 0.05
         anim = "" if STATIC else f' class="grow" style="animation-delay:{delay:.2f}s"'
         s.append(f'<rect x="{bx:.0f}" y="{base_y - bh:.0f}" width="{bw}" height="{bh:.0f}" rx="4" fill="{color}"{anim}/>')
@@ -375,17 +388,17 @@ def tile(fname, num_label, count, word, desc_lines, foot, color, delay):
 
 REPOS = [
     ("Aegis", "Scan links, emails &amp; files with 9 live security tools",
-     "FastAPI · React 19 · TypeScript · 161 tests", "LIVE · v1.8.0", SKY),
+     "FastAPI · React 19 · TypeScript · 161 tests", "LIVE · v1.8.0", "SKY"),
     ("Deceptive-Net", "Generate honey tokens with WGAN-GP &amp; ML fraud scoring",
-     "Python · PyTorch · FastAPI — 17 tests · CI", "v1.0.0", "#a371f7"),
+     "Python · PyTorch · FastAPI — 17 tests · CI", "v1.0.0", "PURPLE"),
     ("SIEM", "Auto-block malicious IPs via VirusTotal + OS firewall",
-     "Python · Flask · Elastic — 15 tests · CI", "v1.0.0", "#f85149"),
+     "Python · Flask · Elastic — 15 tests · CI", "v1.0.0", "RED"),
     ("FoldCrypt", "Encrypt folders with AES, PBKDF2 &amp; SHA-256 manifests",
-     "Python · Tkinter — 11 tests · CI", "v1.0.0", AMBER),
+     "Python · Tkinter — 11 tests · CI", "v1.0.0", "AMBER"),
     ("Z-Security", "Encrypted vault &amp; TOTP authenticator Android app",
-     "Kotlin · Compose · SQLCipher — 23 tests · CI", "v1.2.1", GREEN),
+     "Kotlin · Compose · SQLCipher — 23 tests · CI", "v1.2.1", "GREEN"),
     ("Wokie", "Offline mesh messaging app with end-to-end encryption",
-     "Kotlin · BLE mesh · AES-256-GCM · 96 tests", "v1.2.1", "#0e7c86"),
+     "Kotlin · BLE mesh · AES-256-GCM · 96 tests", "v1.2.1", "TEAL"),
 ]
 
 
@@ -404,13 +417,7 @@ def repo_card(idx, name, desc, meta, tag, color):
     return "".join(s) + svg_close()
 
 
-def main():
-    if "--fetch" in sys.argv:
-        save_days(fetch_calendar())
-        print("contributions refreshed")
-    days = load_days()
-    out = os.path.join(ROOT, "cards")
-    os.makedirs(out, exist_ok=True)
+def render_all(days):
     cards = {
         "hero.svg": hero(),
         "heatmap.svg": heatmap(days),
@@ -426,12 +433,26 @@ def main():
                                   "kmac drbg · under review", AMBER, 2.5),
     }
     for i, (name, desc, meta, tag, color) in enumerate(REPOS):
-        slug = name.lower().replace(" ", "-").replace("·", "").strip("-")
-        cards[f"repo-{i+1}.svg"] = repo_card(i, name, desc, meta, tag, color)
-    for fname, content in cards.items():
-        with open(os.path.join(out, fname), "w") as f:
-            f.write(content)
-        print("wrote", fname, len(content), "bytes")
+        cards[f"repo-{i+1}.svg"] = repo_card(i, name, desc, meta, tag, globals()[color])
+    return cards
+
+
+def main():
+    if "--fetch" in sys.argv:
+        save_days(fetch_calendar())
+        print("contributions refreshed")
+    days = load_days()
+    # Every card is drawn twice: the paper (light) set in cards/ and a dark set
+    # in cards/dark/. The README picks between them with <picture> +
+    # prefers-color-scheme, so the profile follows the viewer's own theme.
+    for theme, sub in (("light", ""), ("dark", "dark")):
+        apply_theme(theme)
+        out = os.path.join(ROOT, "cards", sub)
+        os.makedirs(out, exist_ok=True)
+        for fname, content in render_all(days).items():
+            with open(os.path.join(out, fname), "w") as f:
+                f.write(content)
+            print("wrote", os.path.join(sub, fname), len(content), "bytes")
 
 
 if __name__ == "__main__":
