@@ -214,23 +214,34 @@ def count_up(x, y, target, color, size, delay, anchor="middle", frames=14):
 # ---------------------------------------------------------------- cards
 
 def hero():
-    w, h = 880, 330
+    w, h = 880, 396
     s = [svg_open(w, h, with_font=True)]
     s.append('<defs>' + shine_gradient("shine", INK, SKY_LT) + '</defs>')
     s.append(f'<circle cx="790" cy="-40" r="230" fill="{SKY}" opacity="0.05"/>')
-    # faint oversized monogram, echoing his minimal 3d card
-    s.append(f'<text x="852" y="300" text-anchor="end" font-size="300" fill="{INK}" '
-             f'opacity="0.045" style="{SERIF}">ms</text>')
-    s.append(f'<text x="48" y="58" font-size="13" letter-spacing="3" fill="{FAINT}" '
+    s.append(f'<text x="48" y="64" font-size="13" letter-spacing="3" fill="{FAINT}" '
              f'style="{MONO}" class="fade" animation-delay="0.1s">GITHUB.COM/MANOJ-2424150118</text>')
-    s.append(f'<text x="46" y="150" font-size="88" fill="{INK}" style="{SERIF}" '
+    s.append(f'<text x="46" y="172" font-size="88" fill="{INK}" style="{SERIF}" '
              f'class="rise" animation-delay="0.15s">Manoj Kumar</text>')
-    s.append(f'<text x="46" y="238" font-size="88" fill="url(#shine)" style="{SERIF}" '
+    s.append(f'<text x="46" y="260" font-size="88" fill="url(#shine)" style="{SERIF}" '
              f'class="rise" animation-delay="0.35s">SHARMA</text>')
-    s.append(f'<text x="48" y="278" font-size="24" fill="{SKY}" style="{SANS}" '
+    s.append(f'<text x="48" y="302" font-size="24" fill="{SKY}" style="{SANS}" '
              f'class="rise" animation-delay="0.6s">Cybersecurity &amp; Software Professional</text>')
-    s.append(f'<text x="48" y="306" font-size="15.5" fill="{DIM}" style="{SANS}" '
+    s.append(f'<text x="48" y="330" font-size="15.5" fill="{DIM}" style="{SANS}" '
              f'class="rise" animation-delay="0.75s">MCA · Manipal University Jaipur — AI Fellow at Handshake AI · Jaipur, India</text>')
+    # ASCII portrait (from his photo; data in scripts/portrait.txt) — prints in
+    # row by row like a slow terminal, 18 ms per row, as in the reference design.
+    ppath = os.path.join(ROOT, "scripts", "portrait.txt")
+    if os.path.exists(ppath):
+        with open(ppath) as f:
+            rows = [ln.rstrip("\n") for ln in f if ln.strip() or True]
+        rows = [r for r in rows if r != "" or True][:]
+        for i, row in enumerate(rows):
+            if not row.strip():
+                continue
+            delay = 0.55 + i * 0.018
+            anim = "" if STATIC else f' class="fade" style="animation-delay:{delay:.2f}s"'
+            s.append(f'<text x="578" y="{30 + i * 8.9:.0f}" font-size="10" fill="#b6c9d8" '
+                     f'style="{MONO}" xml:space="preserve"{anim}>{esc(row)}</text>')
     return "".join(s) + svg_close()
 
 
