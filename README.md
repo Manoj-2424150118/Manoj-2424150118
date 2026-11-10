@@ -3,6 +3,10 @@
 </p>
 
 <p align="center">
+  <img src="./koi/koi.gif?v=2" width="256" alt="My contribution koi — it grows with my contributions, takes its colours from my languages, and fills its fins the longer my streak runs"/>
+</p>
+
+<p align="center">
   <picture><source media="(prefers-color-scheme: dark)" srcset="./cards/dark/heatmap.svg?v=2"/><img src="./cards/heatmap.svg?v=2" width="100%" alt="Contribution graph — last 52 weeks"/></picture>
 </p>
 
