@@ -387,8 +387,8 @@ def tile(fname, num_label, count, word, desc_lines, foot, color, delay):
 
 
 REPOS = [
-    ("Aegis", "Scan links, emails &amp; files with 9 live security tools",
-     "FastAPI · React 19 · TypeScript · 161 tests", "LIVE · v1.8.0", "SKY"),
+    ("Aegis", "Scan links, emails &amp; files with 10 live security tools",
+     "FastAPI · React 19 · TypeScript · 186 tests", "LIVE · v2.0.0", "SKY"),
     ("Deceptive-Net", "Generate honey tokens with WGAN-GP &amp; ML fraud scoring",
      "Python · PyTorch · FastAPI — 17 tests · CI", "v1.0.0", "PURPLE"),
     ("SIEM", "Auto-block malicious IPs via VirusTotal + OS firewall",
