@@ -392,7 +392,7 @@ REPOS = [
     ("Deceptive-Net", "Generate honey tokens with WGAN-GP &amp; ML fraud scoring",
      "Python · PyTorch · FastAPI — 17 tests · CI", "v1.0.0", "PURPLE"),
     ("SIEM", "Auto-block malicious IPs via VirusTotal + OS firewall",
-     "Python · Flask · Elastic — 15 tests · CI", "v1.0.0", "RED"),
+     "Python · Flask · Elastic — 16 tests · CI", "v1.0.0", "RED"),
     ("FoldCrypt", "Encrypt folders with AES, PBKDF2 &amp; SHA-256 manifests",
      "Python · Tkinter — 11 tests · CI", "v1.0.0", "AMBER"),
     ("Z-Security", "Encrypted vault &amp; TOTP authenticator Android app",
