@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Manoj-2424150118/aegis-cyber-defense-platform"><picture><source media="(prefers-color-scheme: dark)" srcset="./cards/dark/tile-secure.svg?v=2"/><img src="./cards/tile-secure.svg?v=2" width="32.5%" alt="Secure — 9 live tools in Aegis"/></picture></a>
+  <a href="https://github.com/Manoj-2424150118/aegis-cyber-defense-platform"><picture><source media="(prefers-color-scheme: dark)" srcset="./cards/dark/tile-secure.svg?v=2"/><img src="./cards/tile-secure.svg?v=2" width="32.5%" alt="Secure — 10 live tools in Aegis"/></picture></a>
   <a href="https://Manoj-2424150118.github.io"><picture><source media="(prefers-color-scheme: dark)" srcset="./cards/dark/tile-build.svg?v=2"/><img src="./cards/tile-build.svg?v=2" width="32.5%" alt="Build — 6 core projects, documented and released"/></picture></a>
   <a href="https://github.com/Manoj-2424150118/SecurePasswordGenerator"><picture><source media="(prefers-color-scheme: dark)" srcset="./cards/dark/tile-research.svg?v=2"/><img src="./cards/tile-research.svg?v=2" width="32.5%" alt="Research — paper presented at ICDSA 2026"/></picture></a>
 </p>
@@ -23,7 +23,7 @@
 ## Featured Projects
 
 <p align="center">
-  <a href="https://github.com/Manoj-2424150118/aegis-cyber-defense-platform"><picture><source media="(prefers-color-scheme: dark)" srcset="./cards/dark/repo-1.svg?v=2"/><img src="./cards/repo-1.svg?v=2" width="49%" alt="Aegis — scan links, emails and files with 9 live security tools"/></picture></a>
+  <a href="https://github.com/Manoj-2424150118/aegis-cyber-defense-platform"><picture><source media="(prefers-color-scheme: dark)" srcset="./cards/dark/repo-1.svg?v=2"/><img src="./cards/repo-1.svg?v=2" width="49%" alt="Aegis — scan links, emails and files with 10 live security tools"/></picture></a>
   <a href="https://github.com/Manoj-2424150118/Deceptive-Net-A-Honey-Token-Generative-Framework"><picture><source media="(prefers-color-scheme: dark)" srcset="./cards/dark/repo-2.svg?v=2"/><img src="./cards/repo-2.svg?v=2" width="49%" alt="Deceptive-Net — honey tokens with WGAN-GP and ML fraud scoring"/></picture></a>
 </p>
 <p align="center">
@@ -85,7 +85,7 @@ MCA graduate from Manipal University Jaipur (2024–2026, CGPA 7.60) with a BCA 
 
 - **Threat deception architectures** — extending **Deceptive-Net**, my capstone: a WGAN-GP framework that generates honey tokens, now with planted canary credentials (AWS keys, GitHub PATs, API keys, database DSNs) tracked through a SHA-256 fingerprint-only registry, so a leaked decoy identifies its source without ever storing the raw secret.
 - **Applied cryptography** — the Secure Password Generator / KMAC-based DRBG work: deterministic random bit generation built on KMAC, presented at **ICDSA 2026** and currently **under review**.
-- **Aegis Cyber Defense Platform** — a live personal cyber defense platform with 9 working security tools (link, email and message analysis, file scanning, password lab, encrypted vault, website audit and more), running on Render.
+- **Aegis Cyber Defense Platform** — a live personal cyber defense platform with 10 working security tools (link, email and message analysis, file scanning, password lab, encrypted vault, website audit and more), running on Render.
 
 ## Certifications
 
